@@ -111,6 +111,8 @@ SAVEHIST=50000
 alias mac_gc="find . -type f \( -name '.DS_Store' -o -name '._*' \) -delete"
 alias lg=lazygit
 
+export OPENCODE_CONFIG=opencode.local.json
+export LY2K_PACKAGES_DIR=/Users/igor/project/packages
 export OCAMLRUNPARAM=b
 export COPYFILE_DISABLE=1
 
