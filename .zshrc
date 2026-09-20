@@ -8,11 +8,16 @@ SAVEHIST=50000
 
 alias mac_gc="find . -type f \( -name '.DS_Store' -o -name '._*' \) -delete"
 alias lg=lazygit
+alias mc='SHELL=/bin/bash mc'
 
 export OPENCODE_CONFIG=opencode.local.json
 export LY2K_PACKAGES_DIR="$HOME/project/packages"
 export OCAMLRUNPARAM=b
 export COPYFILE_DISABLE=1
+export EDITOR=emacs
+export VISUAL=emacs
+
+export PATH=$PATH:~/.local/bin
 
 # Android SDK
 export ANDROID_HOME="/opt/homebrew/share/android-commandlinetools"
