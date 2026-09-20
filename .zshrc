@@ -131,6 +131,6 @@ source <(fzf --zsh)
 source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 # Private and machine-local settings (not tracked in Git).
-[[ -f ~/dotfiles/.zshrc.local ]] && source ~/dotfiles/.zshrc.local
+[[ -f ~/.dotfiles/.zshrc.local ]] && source ~/.dotfiles/.zshrc.local
 
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
