@@ -11,6 +11,12 @@ SAVEHIST=50000
 alias lg=lazygit
 alias mc='SHELL=/bin/bash mc'
 
+ef() {
+  local file
+  file=$(rg --files | fzf) || return
+  emacs "$file"
+}
+
 export OPENCODE_CONFIG=opencode.local.json
 export LY2K_PACKAGES_DIR="${LY2K_PACKAGES_DIR:-$HOME/project/packages}"
 export OCAMLRUNPARAM=b
